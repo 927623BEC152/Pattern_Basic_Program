@@ -1,5 +1,5 @@
 import java.util.*;
-public class Left_Pattern{
+public class Right_Aligned_Pattern{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows");
