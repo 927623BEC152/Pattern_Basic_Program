@@ -4,7 +4,9 @@ public class Reverseright_pattern {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the row");
         int N=sc.nextInt();
-        for(int i=N;i>=1;)
+        for(int i=N;i>=1;i--){
+            for(int j =1;j<)
+        }
     })
     
 }
