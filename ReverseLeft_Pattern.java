@@ -8,6 +8,9 @@ public class ReverseLeft_Pattern {
         for(int j=1;j<=N-i;j++){
             System.out.print(" ");
         }
+        for(int j=1;j<=i;j++){
+            System.out.println("*");
+        }
         System.out.println();
     }
      sc.close();
