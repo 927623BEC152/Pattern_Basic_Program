@@ -8,7 +8,7 @@ public class Inverted_Right_Aligned2 {
             for(int s=1;s<=N-r;s++){
                 System.out.print(" ");
             }
-            for(int c=1;c<=r;c++){
+            for(int c=1;c<=N-(N-r);c++){
                 System.out.print("*");
             }
             System.out.println();
