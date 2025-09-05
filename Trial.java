@@ -4,7 +4,16 @@ public class Trial{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the patter : ");
         int N=sc.nextInt();
-        for(int r=N;r>=1;r--){
+        for(int i=1;i<=N;i++){
+            for(int j=i;j<N;j++){
+                System.out.print(" ");
+            }
+            for(int j =1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int r=N-1;r>=1;r--){
             for(int s=1;s<=N-r;s++){
                 System.out.print(" ");
             }
