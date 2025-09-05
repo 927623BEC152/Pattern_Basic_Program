@@ -12,7 +12,7 @@ public class Trial{
             for(int j =1;j<=i;j++){
                 System.out.print("*");
             }
-            for(int j=1;j<=i;j++){
+            for(int j=1;j<=i-1;j++){
                 System.out.print("*");
             }
             System.out.println();
