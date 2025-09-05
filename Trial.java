@@ -25,8 +25,6 @@ public class Trial{
             for(int c=1;c<=N-(N-r);c++){
                 System.out.print("*");
             }
-            // System.out.println();
-
         for(int j=1;j<=r-1;j++){
             System.out.print("*");
         }
