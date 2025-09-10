@@ -8,7 +8,7 @@ public class Hollow_square {
     int n=sc.nextInt();
     for(int r=1;r<=n;r++){
         for(int c=1;c<=n;c++){
-            if(r==1||c==1||r==n||c==n||r==c){
+            if(r==1||c==1||r==n||c==n||r==c||c==(n-r+1)){
                 System.out.print("*");
             }
             else{
